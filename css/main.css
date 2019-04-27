@@ -11,6 +11,25 @@ h1 {
   padding-left: 30px;
 }
 
+h2 {
+
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+span {
+  color: #ee3a43;
+  font-weight: bold;
+}
+
+h4{
+
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+
+}
 /*****DIV STYLES & GRID*****/
 .full-width {
   clear: both;
@@ -21,7 +40,7 @@ h1 {
 
 .half-width {
   float: left;
-  width: 50%;
+  width: 48%;
 }
 
 .third-width {
@@ -49,11 +68,12 @@ h1 {
 #pic {
   background: url(../img/ice-cubes-row.png) no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 600px;
 }
 nav {
   margin-left: 460px;
   padding-top: 30px;
+
 
 }
 nav ul li {
@@ -63,4 +83,52 @@ nav ul li {
   font-size: 30px;
   padding-right: 30px;
   text-decoration: none;
+}
+
+
+
+/*****MAIN RENTAL & SERVICE*****/
+
+
+#main ul {
+  padding-bottom: 40px;
+  padding-left: 230px;
+  font-size: 20px;
+}
+
+/*****GUARANTEE*****/
+
+#guarantee {
+  background: #0053a0;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/*****MACHINES*****/
+
+#machines img {
+  margin-left: 400px;
+}
+
+
+
+#bin-one {
+  background: url(../img/bin-one.png) no-repeat;
+  height: 300px;
+}
+
+#bin-two {
+  background: url(../img/bin-two.png) no-repeat;
+  height: 300px;
+}
+
+#bin-three {
+  background: url(../img/bin-three.png) no-repeat;
+  height: 300px;
+}
+
+#bin-four {
+  background: url(../img/bin-four.png) no-repeat;
+  height: 300px;
 }
