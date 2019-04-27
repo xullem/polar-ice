@@ -1,0 +1,66 @@
+/*****FONT STYLES*****/
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  color: #ee3a43;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 50px;
+  line-height: 0px;
+  padding-left: 30px;
+}
+
+/*****DIV STYLES & GRID*****/
+.full-width {
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.half-width {
+  float: left;
+  width: 50%;
+}
+
+.third-width {
+  float: left;
+  width: 33%
+}
+
+.fourth-width {
+  float: left;
+  width: 25%;
+}
+
+/*****HEADER*****/
+
+#tag {
+  color: #ee3a43;
+  line-height: 0px;
+  padding-left: 30px;
+}
+
+#call {
+  font-size: 22px;
+}
+
+#pic {
+  background: url(../img/ice-cubes-row.png) no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+nav {
+  margin-left: 460px;
+  padding-top: 30px;
+
+}
+nav ul li {
+  color:#0053a0;
+  display: inline-block;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+}
