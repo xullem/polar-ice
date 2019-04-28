@@ -165,6 +165,12 @@ nav ul li {
   padding-top: 20px;
 }
 
+#cubes img {
+  border: 10px solid #0053a0;
+  border-radius: 60px;
+
+}
+
 /*****CONTACT*****/
 #contact {
   padding-top: 20px;
