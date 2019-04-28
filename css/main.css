@@ -94,7 +94,7 @@ nav {
 
 
 }
-nav ul li {
+nav ul li  {
   color:#0053a0;
   display: inline-block;
   font-family: 'Fjalla One', sans-serif;
@@ -103,6 +103,10 @@ nav ul li {
   text-decoration: none;
 }
 
+a {
+  color:#0053a0;
+  text-decoration: none;
+}
 
 
 /*****MAIN RENTAL & SERVICE*****/
