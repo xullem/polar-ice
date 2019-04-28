@@ -59,6 +59,7 @@ span {
 
 .third-width {
   float: left;
+  padding-bottom: 40px;
   width: 33%;
   text-align: center;
 }
@@ -163,6 +164,7 @@ nav ul li {
 
 #cubes {
   padding-top: 20px;
+
 }
 
 #cubes img {
@@ -173,6 +175,18 @@ nav ul li {
 
 /*****CONTACT*****/
 #contact {
-  padding-top: 20px;
+  color: white;
+  background: #0053a0;
+  padding-top: 10px;
   height: 400px;
+}
+
+#contact img {
+  border: 10px solid white;
+  border-radius: 40px;
+}
+
+footer #footnote  {
+  color: white;
+  background: #0053a0;
 }
