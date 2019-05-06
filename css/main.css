@@ -139,7 +139,11 @@ a {
   padding-top: 20px;
 }
 
+#machines a {
+  font-size: 20px;
+  font-weight: bold;
 
+}
 
 #bin-one {
   background: url(../img/bin-one.png) no-repeat;
@@ -195,4 +199,10 @@ a {
 footer #footnote  {
   color: white;
   background: #0053a0;
+}
+
+/**********MACHINE PAGE**********/
+
+#menu-machines {
+  margin: 0 auto;
 }
