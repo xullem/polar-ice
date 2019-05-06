@@ -203,6 +203,7 @@ footer #footnote  {
 
 /**********MACHINE PAGE**********/
 
-#menu-machines {
-  margin: 0 auto;
+#coming-soon p {
+  line-height: 0;
+  text-align: center;
 }
