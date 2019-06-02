@@ -45,6 +45,11 @@ span {
   font-weight: bold;
 }
 /*****DIV STYLES & GRID*****/
+#wrapper {
+  width: 100%;
+  max-width: 1400px;
+}
+
 .full-width {
   clear: both;
   margin: 0 auto;
@@ -54,7 +59,7 @@ span {
 
 .half-width {
   float: left;
-  width: 48%;
+  width: 50%;
 }
 
 .third-width {
