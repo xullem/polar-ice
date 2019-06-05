@@ -86,12 +86,14 @@ span {
   color: #0053a0;
   text-align: right;
   font-size: 50px;
+  padding-right: 20px;
 }
 
 #pic {
   background: url(../img/ice-cubes-row.png) no-repeat;
   background-size: cover;
   height: 600px;
+  width: 108%;
 }
 nav {
   margin-left: 460px;
@@ -195,6 +197,10 @@ a {
 #contact img {
   border: 10px solid white;
   border-radius: 40px;
+}
+
+#tel a {
+  color: white;
 }
 
 footer #footnote  {
