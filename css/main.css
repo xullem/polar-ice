@@ -13,9 +13,9 @@ body {
 h1 {
   color: #ee3a43;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 50px;
+  font-size: 4em;
   line-height: 0px;
-  padding-left: 30px;
+  margin-top: 0;
 }
 
 h2 {
@@ -41,7 +41,9 @@ h4{
 
 }
 h5 {
-  font-size: 22px;
+  font-size: 2.3em;
+  margin: 0px;
+  color: #ee3a43;
 }
 
 p {
@@ -56,13 +58,29 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .topper {
-  width: 100%
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.text-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call {
+  padding-bottom: 20px;
+}
+
+.title {
+  text-align: center;
 }
 .full-width {
   clear: both;
@@ -96,30 +114,31 @@ span {
   padding-left: 30px;
 }
 
-#call h2 {
+.call a {
   color: #0053a0;
-  text-align: right;
-  font-size: 50px;
+  font-size: 4em;
 }
 
 #pic {
   background: url(../img/ice-cubes-row.png) no-repeat;
-  background-size: cover;
-  height: 600px;
+      background-size: cover;
+      height: 780px;
+      display: flex;
+      align-items: flex-start;
 }
 nav {
-  margin-left: 460px;
+  text-align: center;
   padding-top: 30px;
 
 
 }
 nav ul li  {
-  color:#0053a0;
-  display: inline-block;
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 30px;
-  padding-right: 30px;
-  text-decoration: none;
+  color: #0053a0;
+    display: inline-block;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2.6em;
+    padding-right: 21px;
+    text-decoration: none;
 }
 
 a {
