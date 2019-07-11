@@ -1,7 +1,14 @@
 /*****FONT STYLES*****/
+html {
+  font-size: 16px;
+  width: 100%
+  height: 100%
+}
+
 body {
   font-family: 'Noto Sans', sans-serif;
 }
+
 
 h1 {
   color: #ee3a43;
@@ -45,6 +52,18 @@ span {
   font-weight: bold;
 }
 /*****DIV STYLES & GRID*****/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topper {
+  width: 100%
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .full-width {
   clear: both;
   margin: 0 auto;
@@ -52,9 +71,9 @@ span {
 
 }
 
-.half-width {
+/*.half-width {
   float: left;
-  width: 48%;
+  width: 48%;*/
 }
 
 .third-width {
@@ -148,7 +167,7 @@ a {
 }
 
 #bin-two {
-  background: url(../img/bin-two.png) no-repeat;
+  background: url(../img/bin-ice-low.png) no-repeat;
   height: 320px;
   margin-top: 20px;
 }
@@ -156,7 +175,7 @@ a {
 
 
 #bin-three {
-  background: url(../img/bin-four.png) no-repeat;
+  background: url(../img/bin-two.png) no-repeat;
   height: 320px;
   margin-top: 20px;
 }
