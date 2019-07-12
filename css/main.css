@@ -27,7 +27,7 @@ h2 {
 
 h3 {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 28px;
+  font-size: 2.3em;
   text-align: center;
 }
 
@@ -89,11 +89,18 @@ main {
   flex-direction: column-reverse;
 }
 .full-width {
-  clear: both;
-  margin: 0 auto;
-  width: 100%;
 
+  width: 100%;
 }
+
+.machines {
+  width: 100%;
+}
+.bins {
+  display: inline-flex;
+  width: 49%;
+}
+
 
 /*.half-width {
   float: left;
@@ -101,15 +108,19 @@ main {
 }
 
 .third-width {
-  float: left;
+
   padding-bottom: 40px;
   width: 33%;
   text-align: center;
 }
 
-.fourth-width {
-  float: left;
-  width: 25%;
+
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /*****HEADER*****/
@@ -174,6 +185,10 @@ a {
 }
 
 /*****MACHINES*****/
+.iceomatic {
+  float: right;
+    margin: 0px 20px;
+}
 #machines {
   padding-top: 20px;
   }
@@ -186,27 +201,27 @@ a {
 
 
 #bin-one {
-  background: url(../img/bin-one.png) no-repeat;
-  height: 320px;
+  background: url(../img/bin-one-mobile.png) no-repeat;
+  height: 470px;
   margin-top: 20px;
 }
 
 #bin-two {
-  background: url(../img/bin-ice-low.png) no-repeat;
-  height: 320px;
+  background: url(../img/bin-ice-low-mobile.png) no-repeat;
+  height: 548px;
   margin-top: 20px;
 }
 
 
 
 #bin-three {
-  background: url(../img/bin-two.png) no-repeat;
-  height: 320px;
+  background: url(../img/bin-two-mobile.png) no-repeat;
+  height: 480px;
   margin-top: 20px;
 }
 #bin-four {
-  background: url(../img/bin-three.png) no-repeat;
-  height: 320px;
+  background: url(../img/bin-three-mobile.png) no-repeat;
+  height: 480px;
   margin-top: 20px;
 }
 
@@ -217,9 +232,10 @@ a {
 
 }
 
-#cubes img {
+.cubes img {
   border: 10px solid #0053a0;
   border-radius: 60px;
+  width: 600px;
 
 }
 
