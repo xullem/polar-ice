@@ -313,6 +313,7 @@ footer #footnote  {
     .text-logo{
       width:100%;
       justify-content: flex-start;
+      height: 150px;
     }
 
     .text-logo img {
@@ -328,6 +329,7 @@ footer #footnote  {
     .tag {
       text-align: left;
       padding-left: 60px;
+      margin-top: 22px;
     }
 
     #pic {
@@ -400,6 +402,7 @@ footer #footnote  {
 }
 .third-width {
   width: 50%;
+  padding-bottom: 8px;
 }
 
 p {
