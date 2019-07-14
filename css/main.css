@@ -58,6 +58,7 @@ span {
 }
 /*****DIV STYLES & GRID*****/
 .container {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,6 +93,13 @@ section {
 }
 
 /*****HEADER*****/
+.header-wrapper {
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .topper {
   width: 100%;
   display: flex;
@@ -151,6 +159,7 @@ a {
 
 /*****MAIN RENTAL & SERVICE*****/
 main {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -257,4 +266,17 @@ footer #footnote  {
 /*****DESKTOP*****/
   @media all and (min-width:1200px) {
 
+    .header-wrapper {
+      flex-wrap: wrap;
+      flex-direction: unset;
+    }
+    .text-logo{
+      width:100%;
+      justify-content: flex-start;
+    }
+
+    .title {
+        padding-left: 63px;
+        text-align: left;
+    }
   }
