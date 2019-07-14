@@ -255,12 +255,23 @@ main {
   color: white;
 }
 
-.contact img {
+#contact {
+  background: #0053a0;
+  color: white;
+}
+.polar-logo img {
   border: 10px solid white;
     border-radius: 40px;
     width: 50%;
     margin: 60px;
 
+}
+
+.polar-logo{
+  width: 100%;
+  background: #0053a0;
+
+    text-align: center;
 }
 
 footer #footnote  {
@@ -356,6 +367,53 @@ footer #footnote  {
       background: #0053a0;
       color: white;
     }
+.bins {
+  width: 24%;
+}
+
+#bin-one {
+  background: url(../img/bin-one.png) no-repeat;
+  height: 300px;
+
+}
+
+#bin-two {
+  background: url(../img/bin-ice-low.png) no-repeat;
+  height: 300px;
+
+}
+
+
+
+#bin-three {
+  background: url(../img/bin-two.png) no-repeat;
+  height: 277px;
+
+}
+#bin-four {
+  background: url(../img/bin-three.png) no-repeat;
+  height: 300px;
+
+}
+.contact {
+  flex-direction: unset;
+}
+.third-width {
+  width: 50%;
+}
+
+p {
+  font-size: 1.875em;
+}
+
+
+
+.polar-logo img {
+  width: 25%;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
 
 
   }
