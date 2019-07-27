@@ -68,6 +68,12 @@ span {
   width: 100%;
   text-align: center;
 }
+section {
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
 
 
@@ -75,10 +81,28 @@ span {
 /*****HEADER*****/
 .topper {
   width: 100%;
+  padding-bottom: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.topper img {
+  width: 100%;
+}
+
+.header-wrapper {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.tag h1, h5 {
+  margin: 0;
 }
 
 
@@ -102,6 +126,10 @@ span {
 
 }
 
+.menu {
+  margin-top: 10px;
+}
+
 nav {
 
 
@@ -110,8 +138,9 @@ nav {
 nav ul li  {
   color: #0053a0;
     display: inline-block;
+    padding: 40px 15px 0 5px;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 2.3em;
+    font-size: 2.8em;
     text-decoration: none;
 }
 
@@ -133,20 +162,46 @@ a {
 /*****GUARANTEE*****/
 
 .guarantee {
+  width: 100%;
+  text-align: center;
+}
+
+.guarantee-wrapper{
   background: #0053a0;
   color: white;
+}
 
+
+
+.guarantee h4{
+  margin: 10px 0px 50px 0px;
+}
+
+#menu-guarantee h2 {
+  margin: 50px 0px 0px 0px;
 }
 
 /*****MACHINES*****/
 .iceomatic {
-
+text-align: center;
 }
-.machines {
+
+.machine-wrapper {
+  width: 100%;
 
   }
 
+  .machines {
+    padding: 0px 0px 40px 0px;
+margin-left: 80px;
+
+    width: 100%;
+  }
+
   .bins {
+    display: inline-flex;
+   width: 49%;
+
 
   }
 
@@ -178,7 +233,8 @@ a {
 }
 
 /*****CUBES*****/
-.cubes{
+.third-width h3{
+  text-align: center;
 
 }
 
@@ -190,11 +246,19 @@ a {
 }
 
 /*****CONTACT*****/
+.contact-wrapper {
+  color: white;
+  background: #0053a0;
+
+}
+
 .contact {
+  width: 100%;
+}
 
 
-    color: white;
-    background: #0053a0;
+.contact h3{
+  text-align: center;
 
 
 }
@@ -224,6 +288,14 @@ a {
 footer #footnote  {
   color: white;
   background: #0053a0;
+}
+
+/*****TABLET*****/
+@media all and (min-width:1024px) {
+  #pic {
+    height:815px;
+  }
+
 }
 
 /*****DESKTOP*****/
