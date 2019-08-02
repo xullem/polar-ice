@@ -232,6 +232,14 @@ margin-left: 80px;
   margin-top: 20px;
 }
 
+#pounds h2 {
+  margin-bottom: 0;
+}
+
+.models p {
+  margin-top: 0;
+}
+
 /*****CUBES*****/
 .third-width h3{
   text-align: center;
